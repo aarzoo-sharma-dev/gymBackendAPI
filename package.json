@@ -1,0 +1,21 @@
+{
+  "name": "gymBackendAPI",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Aarzoo sharma",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@aarzoo-sharma-dev/gym-db": "https://github.com/aarzoo-sharma-dev/gym-db.git",
+    "compression": "^1.8.2",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "morgan": "^1.12.1",
+    "nodemon": "^3.1.14",
+    "pg": "^8.23.1"
+  }
+}
